@@ -8,7 +8,12 @@ const mongoose = require ('mongoose');
 const app = express ();
 const router = express.Router();
 
-mongoose.connect ("mongodb://localhost:27017/projetocompleto",  { useNewUrlParser: true });
+app.use(express.static('public'));
+
+app.use('/api-doc', (req, res) => {
+  res.sendFile(path.join(__dirname + '/../doc/index.html'))
+})
+mongoose.connect ("mongodb://localhost:27017/projetocompleto",  { useNewUrlParser: true, useUnifiedTopology: true });
 
 const Usuario = require('./models/usuario').default
 

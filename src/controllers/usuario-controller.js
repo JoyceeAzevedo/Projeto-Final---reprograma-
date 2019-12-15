@@ -5,6 +5,7 @@ const Usuario = mongoose.model('Usuario')
 
 exports.get = (req, res) => {
     Usuario.find(function (err, usuarios) {
+      console.log(usuario)
       if (err) res.status(500).send(err);
       res.status(200).send(usuarios);
     })
