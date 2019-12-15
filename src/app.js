@@ -21,6 +21,6 @@ app.use(bodyParser.urlencoded({extended:false}))
 
 app.use('/', indexRoute);
 app.use('/usuario',usuarioRoute);
-app.use('/cupons',usuarioRoute);
+app.use('/:id/cupons',usuarioRoute);
 
 module.exports = app;

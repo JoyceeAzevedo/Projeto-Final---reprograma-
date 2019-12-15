@@ -11,7 +11,7 @@ const SchemaUsuario = new mongoose.Schema({
     senha:{type:String, required: true },
     quantidadeitemdescart:{type:String},
     quantidadepontos:{type:Number},
-    cupons: [String]
+    numcupom: [Number]
     
 });
 
