@@ -31,6 +31,8 @@ Para evitar os danos causados pelo lixo eletrônico, não há outro caminho que 
   
   Esta sendo realizados testes para consumir API do mercado pago. A ideia inicial é que com o cupom gerado o usuário possa inserir no  app e ao realizar o pagamento de boleto seja gerado descontos.
   
+  
+  
    # Tecnologias utilizadas:
    
    * NODE.JS
