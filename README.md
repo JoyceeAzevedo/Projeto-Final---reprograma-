@@ -14,6 +14,6 @@ Quais são os principais impactos ambientais do lixo eletrônico?
  *Danos à saúde pública
   
   
-  
+  fonte: https://www.fazfacil.com.br/artesanato/reciclagem-materiais-rejeito/
   
  
