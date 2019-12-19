@@ -24,12 +24,13 @@ Para evitar os danos causados pelo lixo eletrônico, não há outro caminho que 
   API tem como objetivo incentivar o descarte correto de lixo tóxico. Inicialmente o descarte ocorrerá dentro de condominios   residenciais.
   
   * O Morador do condominio (usuário) irá realiza um cadastro informando seus dados como nome,email, cpf e senha.
-  * O morador levará seu lixo ate um responsavél.
-  * O responsável no momento que receber o descarte irá gerar um  cumpom no usuário do morador.
+  * O morador levará seu lixo ate um responsável.
+  * O responsável no momento que receber o descarte irá gerar um  cupom no usuário do morador.
+  * O cupom será atrelado ao ID de cada usuário.
   
   # Projeto Futuro
   
-  Esta sendo realizados testes para consumir API do mercado pago. A ideia inicial é que com o cupom gerado o usuário possa inserir no  app e ao realizar o pagamento de boleto seja gerado descontos.
+  Esta sendo realizados testes para consumir API do mercado pago. A ideia inicial é que com o cupom gerado o usuário possa inserir no  app e acumular pontos com isso ao realizar o pagamento do boleto de seu condominio o morador poderá ganhar descontos
   
   
   
@@ -38,7 +39,7 @@ Para evitar os danos causados pelo lixo eletrônico, não há outro caminho que 
    * NODE.JS
    * MONGODB
    * Framework Express 
-   * Library: body-parse,mongoose,apidoc,
+   * Library: body-parse,mongoose e apidoc.
   
 
   
