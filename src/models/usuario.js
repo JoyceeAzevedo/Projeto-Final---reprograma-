@@ -9,9 +9,7 @@ const SchemaUsuario = new mongoose.Schema({
     cpf:{type:String, required: true },
     email:{type:String, required: true },
     senha:{type:String, required: true },
-    quantidadeitemdescart:{type:String},
-    quantidadepontos:{type:Number},
-    numcupom: [Number]
+    numcupom: [String]
     
 });
 

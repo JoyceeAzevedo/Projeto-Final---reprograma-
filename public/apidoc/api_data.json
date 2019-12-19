@@ -43,7 +43,7 @@
             "type": "Object[]",
             "optional": false,
             "field": "Cadastra",
-            "description": "<p>usuário e gera cumpom de forma aleatória</p>"
+            "description": "<p>usuário e gera cupom de forma aleatória</p>"
           }
         ]
       },
@@ -103,7 +103,7 @@
             "type": "Object[]",
             "optional": false,
             "field": "Atualiza",
-            "description": "<p>informações do cumpom caso usuário ja tenha cadastrado</p>"
+            "description": "<p>informações do cupom caso usuário ja tenha cadastrado</p>"
           }
         ]
       },

@@ -6,10 +6,24 @@ exports.Gerarcupons = (req, res) => {
   let numcumpom = Math.floor(Math.random() * 100);
   let cupom = {numcupom: numcumpom.toString()}
   let Cupom = new Cupons(cupom);
-  Cupom.save()
+  Cupom.save(function (err) {
+    if (err) res.status(500).send(err);
+
+    res.status(201).send({ message: `Cupom gerado com sucesso` });
+
+  })
+  
 
 
-  //subindo no git
+  usuario.save(function (err) {
+    if (err) res.status(500).send(err);
+
+    res.status(201).send(usuario);
+
+  })
+  }
+   
+  
   const user = req.params.id;
   
     Usuarios.update(
@@ -20,4 +34,4 @@ exports.Gerarcupons = (req, res) => {
         if (err) return res.status(500).send({ message: err });
         res.status(200).send({ message: "Atualizado com sucesso!" });
       })
-  }
+  

@@ -36,7 +36,7 @@ router.get('/:id',controller.getById)
  * @apiGroup Usuarios
  *
  *
- * @apiSuccess {Object[]} Cadastra usuário e gera cumpom de forma aleatória
+ * @apiSuccess {Object[]} Cadastra usuário e gera cupom de forma aleatória
  *
  * @apiSuccessExample Success-Response:
  *     HTTP/1.1 200 OK
@@ -51,7 +51,7 @@ router.get('/:id',controller.getById)
  * 
  */
 
-router.post('/', controller.post), 
+router.post('/:id/cupons', controller.post), 
 
 
 /**
@@ -86,7 +86,7 @@ router.post('/', controller.post),
  * @apiGroup Usuarios
  *
  *
- * @apiSuccess {Object[]} Atualiza informações do cumpom caso usuário ja tenha cadastrado
+ * @apiSuccess {Object[]} Atualiza informações do cupom caso usuário ja tenha cadastrado
  *
  * @apiSuccessExample Success-Response:
  *     HTTP/1.1 200 OK
